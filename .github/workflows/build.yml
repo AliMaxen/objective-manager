@@ -18,7 +18,7 @@ jobs:
       - name: Create Android project
         run: |
           mkdir www
-          cp objective-manager-v4.html www/index.html
+          cp objective-manager-v6.html www/index.html
           npm init -y
           npm i @capacitor/core @capacitor/cli @capacitor/android
           npx cap init "Objective Manager" com.roy.objectivemanager --web-dir www
