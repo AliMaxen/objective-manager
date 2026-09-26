@@ -28,7 +28,7 @@ jobs:
       - name: Create Android project
         run: |
           mkdir www
-          cp OM1_0.html www/index.html
+          cp OM1_1.html www/index.html
 
           npm init -y
 
